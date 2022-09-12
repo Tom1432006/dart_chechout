@@ -1,0 +1,12 @@
+{
+  "name": "dart_checkoutgame",
+  "version": "1.0.0",
+  "description": "",
+  "main": "jquery.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "sass --watch scss:css --style=compressed"
+  },
+  "author": "",
+  "license": "ISC"
+}

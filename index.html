@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="de-DE">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Dart Checkout game</title>
+
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-title" content="Dart Checkout game"/>
+
+    <link rel="stylesheet" href="css/main.css">
+
+    <script src="jquery.min.js"></script>
+    <script src="JavaScript/main.js"></script>
+</head>
+<body>
+    <h1>Dart Checkout Spiel</h1>
+    <div id="game">Laden ...</div>
+    <div id="interface">
+        <div class="skip">
+            <input type="button" name="skip_button" id="skip_button" value="überspringen">
+        </div>
+        <div class="game_inputs">
+            <div class="input">
+                <p>Gruppen:</p>
+                <input type="number" name="number_groups" id="number_groups" min="2" max="7" value="3">
+            </div>
+            <input type="button" value="Neues Spiel" id="new_game">
+        </div>
+    </div>
+
+    
+    <script src="JavaScript/buttons.js"></script>
+</body>
+</html>
